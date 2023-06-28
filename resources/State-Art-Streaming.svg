@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="486.83304mm"
+   height="341.43347mm"
+   viewBox="0 0 486.83301 341.43345"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14, custom)"
+   sodipodi:docname="State-Art-Streaming.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.36257713"
+     inkscape:cx="802.58786"
+     inkscape:cy="712.95176"
+     inkscape:window-width="1920"
+     inkscape:window-height="1080"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="486.83301"
+       height="341.43344"
+       id="page1902"
+       inkscape:export-filename="state-of-the-art.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <inkscape:page
+       x="219.83832"
+       y="173.21292"
+       width="0"
+       height="0"
+       id="page1904" />
+    <inkscape:page
+       x="219.83832"
+       y="173.21292"
+       width="0"
+       height="0"
+       id="page1906" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(45.010503,21.137058)">
+    <path
+       style="fill:#247296;stroke-width:0.673714"
+       d="M 48.058605,74.559565 V 277.0955"
+       id="path790" />
+    <rect
+       style="fill:#aaccff;fill-opacity:0.276147;stroke:#000000;stroke-width:0.129386;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5722"
+       width="348.71695"
+       height="139.02728"
+       x="27.200388"
+       y="59.930508" />
+    <rect
+       style="fill:#ffdbc2;fill-opacity:0.679652;stroke:#000000;stroke-width:0.12941;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5722-2"
+       width="348.71692"
+       height="39.583885"
+       x="27.26878"
+       y="207.61728" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.7794px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;stroke:#000000;stroke-width:0.674773;stroke-dasharray:none;stroke-opacity:1"
+       x="-240.35298"
+       y="42.382626"
+       id="text5852"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan5850"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;stroke-width:0.674776"
+         x="-240.35298"
+         y="42.382626">Deep</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.7794px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;stroke:#000000;stroke-width:0.674773;stroke-dasharray:none;stroke-opacity:1"
+       x="-147.60637"
+       y="42.514217"
+       id="text5852-7"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan5850-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;stroke-width:0.674776"
+         x="-147.60637"
+         y="42.514217">Shallow</tspan></text>
+    <rect
+       style="fill:#ffe680;fill-opacity:0.417535;stroke:none;stroke-width:1.1051;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6657"
+       width="88.017372"
+       height="113.4806"
+       x="60.34433"
+       y="72.703827" />
+    <rect
+       style="fill:#5599ff;fill-opacity:0.316279;stroke:none;stroke-width:1.10396;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6657-1"
+       width="88.017372"
+       height="113.4806"
+       x="162.19727"
+       y="72.703842" />
+    <rect
+       style="fill:#8080ff;fill-opacity:0.214521;stroke:none;stroke-width:1.17262;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6657-13"
+       width="99.306618"
+       height="113.4806"
+       x="264.05023"
+       y="72.703842" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.7794px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;stroke:#000000;stroke-width:0.674776;stroke-dasharray:none;stroke-opacity:1"
+       x="66.93708"
+       y="87.84436"
+       id="text6665"><tspan
+         sodipodi:role="line"
+         id="tspan6663"
+         style="fill:#000000;stroke-width:0.674776;stroke-dasharray:none"
+         x="66.93708"
+         y="87.84436">Probabilistic</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.7794px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;stroke:#000000;stroke-width:0.674776;stroke-dasharray:none;stroke-opacity:1"
+       x="168.79004"
+       y="87.84436"
+       id="text6665-3"><tspan
+         sodipodi:role="line"
+         style="fill:#000000;stroke-width:0.674776;stroke-dasharray:none"
+         x="168.79004"
+         y="87.84436"
+         id="tspan6731">Distance-based</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.7794px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;stroke:#000000;stroke-width:0.674776;stroke-dasharray:none;stroke-opacity:1"
+       x="270.62192"
+       y="87.594513"
+       id="text6665-3-5"><tspan
+         sodipodi:role="line"
+         style="fill:#000000;stroke-width:0.674776;stroke-dasharray:none"
+         x="270.62192"
+         y="87.594513"
+         id="tspan6731-9">Ensembles</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.3303px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';fill:#000000;stroke:#000000;stroke-width:0.487557;stroke-dasharray:none;stroke-opacity:1"
+       x="78.003273"
+       y="230.37874"
+       id="text6766"
+       transform="scale(0.99975017,1.0002499)"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.3303px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';stroke-width:0.487557;stroke-dasharray:none"
+         x="78.003273"
+         y="230.37874"
+         id="tspan3634">Kitsune (2018)         mStream (2021)         MemStream (2022)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.3303px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:#000000;stroke-width:0.509265;stroke-dasharray:none;stroke-opacity:1"
+       x="104.63241"
+       y="113.16568"
+       id="text6766-4"><tspan
+         sodipodi:role="line"
+         id="tspan6764-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.3303px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;stroke-width:0.509265;stroke-dasharray:none"
+         x="104.63241"
+         y="113.16568">RS-Hash (2016)</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.3303px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;stroke-width:0.509265;stroke-dasharray:none"
+         x="104.63241"
+         y="126.07855"
+         id="tspan8247" /><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.3303px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;stroke-width:0.509265;stroke-dasharray:none"
+         x="104.63241"
+         y="138.99142"
+         id="tspan8249">LODA (2015)</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.3303px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;stroke-width:0.509265;stroke-dasharray:none"
+         x="104.63241"
+         y="151.90431"
+         id="tspan8251" /><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.3303px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;stroke-width:0.509265;stroke-dasharray:none"
+         x="104.63241"
+         y="164.81718"
+         id="tspan8253">xStream (2018)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.3303px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:#000000;stroke-width:0.509265;stroke-dasharray:none;stroke-opacity:1"
+       x="206.49945"
+       y="113.48801"
+       id="text6766-4-0"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.3303px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;stroke-width:0.509265;stroke-dasharray:none"
+         x="206.49945"
+         y="113.48801"
+         id="tspan8351">STORM (2007)</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.3303px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;stroke-width:0.509265;stroke-dasharray:none"
+         x="206.49945"
+         y="126.40088"
+         id="tspan8353" /><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.3303px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;stroke-width:0.509265;stroke-dasharray:none"
+         x="206.49945"
+         y="139.31375"
+         id="tspan8355">DILOF (2018)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.3303px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:#000000;stroke-width:0.509265;stroke-dasharray:none;stroke-opacity:1"
+       x="314.59644"
+       y="112.39403"
+       id="text6766-4-4"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.3303px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;stroke-width:0.509265;stroke-dasharray:none"
+         x="314.59644"
+         y="112.39403"
+         id="tspan8253-8">HS-Tree (2011)</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.3303px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;stroke-width:0.509265;stroke-dasharray:none"
+         x="314.59644"
+         y="125.3069"
+         id="tspan8371" /><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.3303px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;stroke-width:0.509265;stroke-dasharray:none"
+         x="314.59644"
+         y="138.21977"
+         id="tspan8373">Ex.IF (2021)</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.3303px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;stroke-width:0.509265;stroke-dasharray:none"
+         x="314.59644"
+         y="151.13266"
+         id="tspan8387" /><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.3303px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;stroke-width:0.509265;stroke-dasharray:none"
+         x="314.59644"
+         y="164.04553"
+         id="tspan8377">iForestASD (2013)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.3303px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#000000;stroke:#000000;stroke-width:0.509265;stroke-dasharray:none;stroke-opacity:1"
+       x="257.12057"
+       y="121.6113"
+       id="text8385"><tspan
+         sodipodi:role="line"
+         id="tspan8383"
+         style="font-size:10.3303px;text-align:center;text-anchor:middle;stroke-width:0.509265"
+         x="257.12057"
+         y="121.6113">RCF</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:10.3303px;text-align:center;text-anchor:middle;stroke-width:0.509265"
+         x="257.12057"
+         y="134.52417"
+         id="tspan4466">(2016)</tspan></text>
+  </g>
+</svg>

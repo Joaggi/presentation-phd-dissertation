@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="180.48695mm"
+   height="93.214401mm"
+   viewBox="0 0 180.48696 93.2144"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="density-estimation-background.svg"
+   inkscape:export-filename="density-estimation-background.png"
+   inkscape:export-xdpi="500"
+   inkscape:export-ydpi="500"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.5981902"
+     inkscape:cx="310.97675"
+     inkscape:cy="170.50536"
+     inkscape:window-width="1920"
+     inkscape:window-height="1080"
+     inkscape:window-x="5760"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="TriangleStart"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-20.185151,-52.100104)">
+    <rect
+       style="fill:#508faf;fill-opacity:0.482788;stroke-width:0.165829;stroke-dasharray:0.184122;paint-order:stroke fill markers"
+       id="rect560"
+       width="54.451927"
+       height="30.304419"
+       x="56.395962"
+       y="94.035194"
+       ry="1.6409303" />
+    <rect
+       style="fill:#50af9f;fill-opacity:0.75809997;stroke-width:0.127744;stroke-dasharray:0.141836;paint-order:stroke fill markers"
+       id="rect560-6"
+       width="54.451927"
+       height="17.983034"
+       x="55.892765"
+       y="73.471397"
+       ry="0.97374922" />
+    <rect
+       style="fill:#af7050;fill-opacity:0.66482025;stroke-width:0.12782;stroke-dasharray:0.14192;paint-order:stroke fill markers"
+       id="rect560-6-7"
+       width="54.451927"
+       height="18.004486"
+       x="115.36963"
+       y="73.540413"
+       ry="0.97491086" />
+    <rect
+       style="fill:#5060af;fill-opacity:0.50167507;stroke-width:0.165829;stroke-dasharray:0.184122;paint-order:stroke fill markers"
+       id="rect560-3"
+       width="54.451927"
+       height="30.304419"
+       x="115.46815"
+       y="94.753494"
+       ry="1.6409303" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
+       x="23.63246"
+       y="114.54797"
+       id="text288"><tspan
+         sodipodi:role="line"
+         id="tspan286"
+         style="font-size:7.05556px;stroke-width:0.264583"
+         x="23.63246"
+         y="114.54797">Shalow</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
+       x="26.927696"
+       y="87.606445"
+       id="text292"><tspan
+         sodipodi:role="line"
+         id="tspan290"
+         style="font-size:7.05556px;stroke-width:0.264583"
+         x="26.927696"
+         y="87.606445">Deep</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
+       x="39.710495"
+       y="63.611401"
+       id="text292-5"><tspan
+         sodipodi:role="line"
+         id="tspan290-3"
+         style="font-size:7.05556px;stroke-width:0.264583"
+         x="39.710495"
+         y="63.611401">Feature Map</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
+       x="173.84787"
+       y="129.45854"
+       id="text292-5-5"><tspan
+         sodipodi:role="line"
+         id="tspan290-3-6"
+         style="font-size:7.05556px;stroke-width:0.264583"
+         x="173.84787"
+         y="129.45854">Model</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
+       x="65.318192"
+       y="137.93486"
+       id="text296"><tspan
+         sodipodi:role="line"
+         id="tspan294"
+         style="font-size:7.05556px;stroke-width:0.264583"
+         x="65.318192"
+         y="137.93486">Parametric</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
+       x="117.0174"
+       y="138.0141"
+       id="text300"><tspan
+         sodipodi:role="line"
+         id="tspan298"
+         style="font-size:7.05556px;stroke-width:0.264583"
+         x="117.0174"
+         y="138.0141">Non-Parametric</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';fill:#333333;stroke-width:0.264583"
+       x="60.502312"
+       y="106.26509"
+       id="text416"><tspan
+         sodipodi:role="line"
+         style="font-size:4.23333px;fill:#333333;stroke-width:0.264583"
+         x="60.502312"
+         y="106.26509"
+         id="tspan418">Gaussian Mixture</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:4.23333px;fill:#333333;stroke-width:0.264583"
+         x="60.502312"
+         y="111.55676"
+         id="tspan420">Models</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';fill:#333333;stroke-width:0.264583"
+       x="56.998924"
+       y="84.020096"
+       id="text474"><tspan
+         sodipodi:role="line"
+         id="tspan472"
+         style="font-size:5.64444px;fill:#333333;stroke-width:0.264583"
+         x="56.998924"
+         y="84.020096">Normalizing flows</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';fill:#333333;stroke-width:0.264583"
+       x="122.64288"
+       y="107.51437"
+       id="text478"><tspan
+         sodipodi:role="line"
+         id="tspan476"
+         style="font-size:5.64444px;fill:#333333;stroke-width:0.264583"
+         x="122.64288"
+         y="107.51437">Kernel Density </tspan><tspan
+         sodipodi:role="line"
+         style="font-size:5.64444px;fill:#333333;stroke-width:0.264583"
+         x="122.64288"
+         y="114.56992"
+         id="tspan20619">Estimation</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';fill:#333333;stroke-width:0.264583"
+       x="126.25381"
+       y="88.707291"
+       id="text482"><tspan
+         sodipodi:role="line"
+         id="tspan480"
+         style="font-size:7.05556px;fill:#333333;stroke-width:0.264583"
+         x="126.25381"
+         y="88.707291">DEMANDE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';fill:#333333;stroke-width:0.264583"
+       x="60.60746"
+       y="117.12603"
+       id="text486"><tspan
+         sodipodi:role="line"
+         id="tspan484"
+         style="font-size:4.23333px;fill:#333333;stroke-width:0.264583"
+         x="60.60746"
+         y="117.12603">Assume a parametric</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:4.23333px;fill:#333333;stroke-width:0.264583"
+         x="60.60746"
+         y="122.41769"
+         id="tspan488">Model</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.29167px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';fill:#333333;stroke-width:0.264583"
+       x="116.69923"
+       y="79.653175"
+       id="text494"><tspan
+         sodipodi:role="line"
+         id="tspan492"
+         style="font-size:5.29167px;fill:#333333;stroke-width:0.264583"
+         x="116.69923"
+         y="79.653175">Boltzman Machines</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';fill:#333333;stroke-width:0.264583"
+       x="60.580162"
+       y="99.875191"
+       id="text558"><tspan
+         sodipodi:role="line"
+         id="tspan556"
+         style="font-size:4.23333px;fill:#333333;stroke-width:0.264583"
+         x="60.580162"
+         y="99.875191">Splines</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.765;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#TriangleStart);marker-end:url(#TriangleStart);stroke-dasharray:none"
+       d="m 54.118956,73.800546 v 54.944784 l 113.574954,-1e-5"
+       id="path616" />
+  </g>
+</svg>
