@@ -130,40 +130,7 @@
 				</section>
 
 
-			
-      <section
-
-      data-background-image="resources/motivation_background_density.svg" data-background-size="200px" data-background-position="98% 2%" 
- 
-          data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
-					aria-hidden="true">
-					<h1 data-auto-animate-target="">Aplications</h1>
-					<div class="text-image">
-						<div style="width:50%; float:left;">
-							<img src="resources/generative_model.png" alt="Generative Models" width="70%">
-							<p>Generative Models</p>
-						</div>
-						<div style="width:46%; float:right;">
-							<img src="resources/kde_kernel.png" alt="Choropleth Maps" width="77%"
-								style="margin-top: 0px; margin-bottom: 0px;"><br>
-							Density Estimation
-						</div>
-						<div style="width:50%; float:left;">
-							<img src="resources/anomaly_detection_graph.png" alt="Anomaly Detection" width="60%"><bR>
-							Anomaly Detection
-						</div>
-
-						<div style="width:50%; float:right;">
-							<img src="resources/classification.png" alt="Classification" width="50%">
-              <br>
-
-							Classification
-						</div>
-					</div>
-				</section>
-
-
-
+		
 			
 				<section
 
@@ -369,14 +336,6 @@ Illustration of Density Matrix Neural Density Estimation (DEMANDE) training and 
           </div>
 The learning process of adaptive Fourier features (AFF) through a siamese neural network. 
         </section>
-
-                <section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
-                                                                                                 aria-hidden="true">
-          <div class="text-image">
-            <img src="resources/paper_fast_kernel_density_estimation.png"> </img>
-          </div>
-        </section>
-
 			<section 
       data-background-image="resources/motivation_background_density.svg" data-background-size="200px" data-background-position="98% 2%" 
           data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
@@ -442,13 +401,22 @@ Each graph represents the density estimate obtained by a specific algorithm on a
         </section>
 			<!-- CONCLUSIONS -->
 
+
+      <section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+                                                                                                 aria-hidden="true">
+          <div class="text-image">
+            <img src="resources/paper_fast_kernel_density_estimation.png"> </img>
+          </div>
+        </section>
+
+
         <section
 
       data-background-image="resources/motivation_background_density.svg" data-background-size="200px" data-background-position="98% 2%" 
           data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
                                                                                                  aria-hidden="true">
           <div class="text-image">
-            <img src="resources/paper_demande.png"> </img>
+            <img src="resources/paper-demande.svg"> </img>
           </div>
         </section>
 
@@ -590,17 +558,6 @@ Each graph represents the density estimate obtained by a specific algorithm on a
 				</section>
 
 
-        <section
-      data-background-image="resources/motivation_background_anomaly.svg" data-background-size="200px" data-background-position="98% 2%" 
-          data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
-                                                                                                 aria-hidden="true">
-			
-          <div class="text-image">
-            <img src="resources/addm-paper.png" > </img>
-          </div>
-        </section>
-
-
         <section 
       data-background-image="resources/motivation_background_anomaly.svg" data-background-size="200px" data-background-position="98% 2%" 
           data-auto-animate="running" class="future" style="top: 312px; display: none;" hidden=""
@@ -614,15 +571,6 @@ Each graph represents the density estimate obtained by a specific algorithm on a
         </section>
 
 
-        <section 
-      data-background-image="resources/motivation_background_anomaly.svg" data-background-size="200px" data-background-position="98% 2%" 
-          data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
-                                                                                                 aria-hidden="true">
-			
-          <div class="text-image">
-            <img src="resources/laddm.png" > </img>
-          </div>
-        </section>
 
         <section
       data-background-image="resources/motivation_background_anomaly.svg" data-background-size="200px" data-background-position="98% 2%" 
@@ -635,59 +583,6 @@ Each graph represents the density estimate obtained by a specific algorithm on a
 						<img src="resources/LANDM.svg" alt="Classification dmkde"></img>
 					</div>
         </section>
-
-
-				<section
-      data-background-image="resources/motivation_background_anomaly.svg" data-background-size="200px" data-background-position="98% 2%" 
-          data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: none;" hidden=""
-				aria-hidden="true">
-					<h2 data-auto-animate-target="11">Training Stage</h2>
-					<img src="resources/trainingstage.png" alt="Websocket" width="30%" style="float: right">
-					<div style="width: 60%; margin-top: 10%;">
-						<ol>
-							<li>Generate \(\mathbb{w} = (w_1, \cdots, w_D) \) and \(\mathbb{b} = (b_1, \cdots, b_D) \)</li>
-							<li>Optimization of \(\mathbb{w} \) and \(\mathbb{b} \) (AFF)</li>
-							<li>Embed each training data point step</li>
-							<li>Normalization of the embeddings</li>
-              <li><b>Density Matrix building</b>:  by adding the outer products of all training embeddings</li>
-						</ol>
-					</div>
-				</section>
-
-				<section
-      data-background-image="resources/motivation_background_anomaly.svg" data-background-size="200px" data-background-position="98% 2%" 
-          data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: none;" hidden=""
-				aria-hidden="true">
-					<h2 data-auto-animate-target="11">Validation Stage and Hyperparameter Tuning
-</h2>
-					<img src="resources/validationstage.png" alt="Websocket" width="33%" style="float: right">
-					<div style="width: 60%; margin-top: 10%;">
-						<ol>
-							<li>RFF embedding of the validation samples</li>
-							<li>Density using an the Born rule </li>
-							<li>Compute a threshold \(\theta\) as discriminator
-							</li>
-						</ol>
-					</div>
-				</section>
-
-				<section
-      data-background-image="resources/motivation_background_anomaly.svg" data-background-size="200px" data-background-position="98% 2%" 
-          data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: none;" hidden=""
-				aria-hidden="true">
-					<h2 data-auto-animate-target="11">Prediction/Test Stage</h2>
-					<img src="resources/predictionstage.png" alt="Websocket" width="33%" style="float: right">
-					<div style="width: 60%; margin-top: 11%;">
-						<ol>
-							<li>RFF embedding of the test samples</li>
-							<li>Density using an the Born rule </li>
-              <li>Using the threshold \(\theta\), classify each test sample as <b>normal</b> if its density
-                lies above the threshold, or as <b>anomaly</b> if its density lies below the threshold
-							</li>
-						</ol>
-					</div>
-				</section>
-
 
 
 				<section 
@@ -731,40 +626,6 @@ Each graph represents the density estimate obtained by a specific algorithm on a
 					\]
 				</section>
 
-				<section
-      data-background-image="resources/motivation_background_anomaly.svg" data-background-size="200px" data-background-position="98% 2%" 
-          data-visibility="hidden" data-auto-animate="running" class="future" style="top: 312px; display: none;" hidden=""
-				aria-hidden="true">
-					<h2 data-auto-animate-target="11">Results</h2>
-					\[\tiny{
-					\begin{array}[c]{l||c|c|c|c|c|c|c|c|c|c|c||c}
-					\hline
-					Data Set    & OCSVM & iForest & Cov. & LOF & KNN & SOS & COPOD & LODA   & VAE-B & DSVDD & LAKE   & AD-DMKDE \\
-					\hline
-
-					Arrhythmia & 0.813 & 0.821 & 0.818 & 0.804 & 0.861 & 0.773 & 0.844 & 0.798 & 0.856 & 0.864 & \underline{0.909} & \bf{0.911} \\
-					Cardio     & \underline{0.804} & 0.752 & 0.756 & 0.702 & 0.753 & 0.739 & 0.750 & 0.717 & 0.783 & 0.735 & 0.672 & \bf{0.831} \\
-					Glass      & 0.916 & 0.931 & 0.931 & 0.925 & 0.900 & 0.907 & 0.916 & 0.848 & 0.900 & 0.907 & \bf{1.000} & \underline{0.974} \\
-					Ionosphere & 0.765 & 0.710 & 0.876 & 0.830 & 0.817 & 0.784 & 0.736 & 0.510 & 0.714 & 0.674 & \bf{0.993} & \underline{0.959} \\
-					Letter     & 0.893 & 0.897 & 0.909 & \bf{0.930} & 0.910 & 0.911 & 0.895 & 0.899 & 0.897 & 0.897 & 0.838 & \underline{0.927} \\
-					Lympho     & 0.934 & \bf{1.000} & 0.934 & \bf{1.000} & \bf{1.000}  & 0.934 & 0.962 & 0.923 & \bf{1.000} & \bf{1.000}  & \bf{1.000} & \bf{1.000} \\
-					MNIST      & 0.881 & 0.881 & 0.841 & 0.886 & 0.909 & 0.864 & 0.868 & 0.866 & 0.895 & 0.880 & \bf{0.959} & \underline{0.911} \\
-					Musk       & 0.958 & 0.931 & \underline{0.997} & 0.958 & 0.991 & 0.951 & 0.964 & 0.954 & 0.984 & 0.992 & 0.639 & \bf{1.000} \\
-					OptDigits  & 0.952 & 0.952 & 0.952 & 0.949 & 0.952 & 0.953 & 0.949 & \underline{0.955} & 0.951 & 0.952 & 0.819 & \bf{0.981} \\
-					PenDigits  & 0.963 & \underline{0.967} & 0.966 & 0.961 & 0.965 & 0.963 & 0.966 & 0.966 & 0.966 & 0.963 & \bf{0.994} & \bf{0.994} \\
-					Pima       & 0.592 & 0.624 & 0.559 & 0.615 & 0.644 & 0.636 & 0.615 & 0.597 & 0.632 & 0.679 & \underline{0.740} & \bf{0.758} \\
-					Satellite  & 0.681 & 0.757 & 0.813 & 0.634 & 0.716 & 0.597 & 0.732 & 0.709 & 0.761 & 0.761 & \underline{0.841} & \bf{0.845} \\
-					SatImage   & 0.984 & \underline{0.998} & 0.991 & 0.979 & 0.998 & 0.980 & 0.994 & 0.997 & 0.996 & 0.996 & 0.946 & \bf{1.000} \\
-					SpamBase   & 0.702 & 0.794 & 0.714 & 0.702 & 0.719 & 0.719 & 0.799 & 0.699 & 0.741 & 0.738 & \bf{0.885} & \underline{0.816} \\
-					Thyroid    & 0.953 & 0.958 & \bf{0.986} & 0.949 & 0.953 & 0.949  & 0.953 & 0.958 & 0.958 & 0.961 & 0.803 & \underline{0.967} \\
-					Vertebral  & 0.750 & 0.778 & 0.817 & 0.796 & 0.810 & 0.817 & 0.817 & 0.817 & 0.817 & \underline{0.819} & 0.807 & \bf{0.904} \\
-					Vowels     & 0.950 & 0.942 & 0.941 & 0.951 & 0.969 & 0.954 & 0.943 & 0.929 & 0.952 & 0.943 & \bf{1.000} & \underline{0.979} \\
-					WBC        & 0.942 & 0.941 & 0.949 & 0.957 & 0.942 & 0.913 & \bf{0.970} & 0.947 & 0.957 & 0.956 & 0.897 & \underline{0.961} \\
-					\hline
-					\end{array}} 
-					\]
-				</section>
-
         <section 
       data-background-image="resources/motivation_background_anomaly.svg" data-background-size="200px" data-background-position="98% 2%" 
           data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
@@ -790,6 +651,26 @@ Each graph represents the density estimate obtained by a specific algorithm on a
         </section>
 
 
+        <section
+      data-background-image="resources/motivation_background_anomaly.svg" data-background-size="200px" data-background-position="98% 2%" 
+          data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+                                                                                                 aria-hidden="true">
+			
+          <div class="text-image">
+            <img src="resources/paper-andm.svg" > </img>
+          </div>
+        </section>
+
+
+        <section 
+      data-background-image="resources/motivation_background_anomaly.svg" data-background-size="200px" data-background-position="98% 2%" 
+          data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+                                                                                                 aria-hidden="true">
+			
+          <div class="text-image">
+            <img src="resources/paper-landm.svg" > </img>
+          </div>
+        </section>
 			<!-- CONCLUSIONS -->
 
 			<section
@@ -798,7 +679,7 @@ Each graph represents the density estimate obtained by a specific algorithm on a
 			aria-hidden="true">
 				<h2 data-auto-animate-target="11">Conclusions</h2>
 				<ul>
-					<li>AD-DMKDE show better performance than state-of-the-art algorithms over twenty anomaly detection data sets. </li>
+					<li>LANDM show better performance than state-of-the-art algorithms over twenty anomaly detection data sets. </li>
         </ul>
 			</section>
 
@@ -809,8 +690,8 @@ Each graph represents the density estimate obtained by a specific algorithm on a
 			aria-hidden="true">
 				<h2 data-auto-animate-target="11">Conclusions</h2>
 				<ul>
-					<li>AD-DMKDE show better performance than state-of-the-art algorithms over twenty anomaly detection data sets. </li>
-					<li>The performance of AD-DMKDE does not seem to be affected by the anomaly rate of the data sets or the size
+					<li>LANDM show better performance than state-of-the-art algorithms over twenty anomaly detection data sets. </li>
+					<li>The performance of LANDM does not seem to be affected by the anomaly rate of the data sets or the size
 						of the data sets, but it seems to perform better for low dimensionality data sets. 
 					</li>
 				</ul>
@@ -823,11 +704,11 @@ Each graph represents the density estimate obtained by a specific algorithm on a
 			aria-hidden="true">
 				<h2 data-auto-animate-target="11">Conclusions</h2>
 				<ul>
-					<li>AD-DMKDE show better performance than state-of-the-art algorithms over twenty anomaly detection data sets. </li>
-					<li>The performance of AD-DMKDE does not seem to be affected by the anomaly rate of the data sets or the size
+					<li>LANDM show better performance than state-of-the-art algorithms over twenty anomaly detection data sets. </li>
+					<li>The performance of LANDM does not seem to be affected by the anomaly rate of the data sets or the size
 						of the data sets, but it seems to perform better for low dimensionality data sets. 
 					</li>
-					<li>In contrast with KDE, AD-DMKDE does not have huge memory requirements.</li>
+					<li>In contrast with KDE, LANDM does not have huge memory requirements.</li>
 				</ul>
 			</section>
 
@@ -838,15 +719,11 @@ Each graph represents the density estimate obtained by a specific algorithm on a
 			aria-hidden="true">
 				<h2 data-auto-animate-target="11">Conclusions</h2>
 				<ul>
-					<li>AD-DMKDE show better performance than state-of-the-art algorithms over twenty anomaly detection data sets. </li>
-					<li>The performance of AD-DMKDE does not seem to be affected by the anomaly rate of the data sets or the size
+					<li>LANDM show better performance than state-of-the-art algorithms over twenty anomaly detection data sets. </li>
+					<li>The performance of LANDM does not seem to be affected by the anomaly rate of the data sets or the size
 						of the data sets, but it seems to perform better for low dimensionality data sets. 
 					</li>
-					<li>In contrast with KDE, AD-DMKDE does not have huge memory requirements.</li>
-					<li>As future work, we will continue to further develop the main concepts behind AD-DMKDE, building 
-						algorithms based on the combination of Fourier features and density matrices with deeper neural networks, 
-						such as autoencoders and variational autoencoders.
-					</li>
+					<li>In contrast with KDE, LANDM does not have huge memory requirements.</li>
 				</ul>
 			</section>
 
@@ -918,6 +795,37 @@ Each graph represents the density estimate obtained by a specific algorithm on a
 				</section>
 
 
+				<section
+      data-background-image="resources/motivation_background_incremental.svg" data-background-size="200px" data-background-position="98% 2%" 
+          data-auto-animate="running" class="future" style="top: 312px; display: none;" hidden=""
+					aria-hidden="true">
+					<h2 data-auto-animate-target="11" style="margin-top: 20px; margin-bottom: -15px;">
+						InQMAD: Incremental Quantum Measurement Anomaly Detection
+					</h2>
+					<div class="text-image">
+						<img src="resources/inqmad2.svg" alt="Classification dmkde"></img>
+					</div>
+				</section>
+
+
+				<section
+      data-background-image="resources/motivation_background_incremental.svg" data-background-size="200px" data-background-position="98% 2%" 
+          data-auto-animate="running" class="future" style="top: 312px; display: none;" hidden=""
+					aria-hidden="true">
+					<h2 data-auto-animate-target="11" style="margin-top: 20px; margin-bottom: -15px;">
+						InQMAD: Incremental Quantum Measurement Anomaly Detection
+					</h2>
+					<ul>
+						<li><b>First Phase:</b> Map the original data to a feature space by using Random Fourier Features</li>
+						<li><b>Second Phase:</b> Initialize the Density Matrix</li>
+						<li><b>Third Phase:</b> Estimate the density of new data points using the Density Matrix, and <br>
+						    use these estimations to classify the points as normal data or anomalies</li>
+						<li><b>Fourth Phase:</b> Update the Density Matrix with info from the new points</li>
+					</ul>
+				</section>
+
+
+
 
 
 						<!-- PROPOSAL INTRO -->
@@ -949,38 +857,6 @@ Each graph represents the density estimate obtained by a specific algorithm on a
 					</ul>
 				</section>
 
-
-
-
-			<!-- PROPOSAL INTRO -->
-				<section
-      data-background-image="resources/motivation_background_incremental.svg" data-background-size="200px" data-background-position="98% 2%" 
-          data-auto-animate="running" class="future" style="top: 312px; display: none;" hidden=""
-					aria-hidden="true">
-					<h2 data-auto-animate-target="11" style="margin-top: 20px; margin-bottom: -15px;">
-						InQMAD: Incremental Quantum Measurement Anomaly Detection
-					</h2>
-					<div class="text-image">
-						<img src="resources/inqmad2.svg" alt="Classification dmkde"></img>
-					</div>
-				</section>
-
-
-				<section
-      data-background-image="resources/motivation_background_incremental.svg" data-background-size="200px" data-background-position="98% 2%" 
-          data-auto-animate="running" class="future" style="top: 312px; display: none;" hidden=""
-					aria-hidden="true">
-					<h2 data-auto-animate-target="11" style="margin-top: 20px; margin-bottom: -15px;">
-						InQMAD: Incremental Quantum Measurement Anomaly Detection
-					</h2>
-					<ul>
-						<li><b>First Phase:</b> Map the original data to a feature space by using Random Fourier Features</li>
-						<li><b>Second Phase:</b> Initialize the Density Matrix</li>
-						<li><b>Third Phase:</b> Estimate the density of new data points using the Density Matrix, and <br>
-						    use these estimations to classify the points as normal data or anomalies</li>
-						<li><b>Fourth Phase:</b> Update the Density Matrix with info from the new points</li>
-					</ul>
-				</section>
 
 
 
@@ -1074,6 +950,28 @@ Each graph represents the density estimate obtained by a specific algorithm on a
         </section>
 
 
+
+    <section 
+      data-background-image="resources/motivation_background_incremental.svg" data-background-size="200px" data-background-position="98% 2%" 
+          data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+				aria-hidden="true">
+				<div class="text-image">
+					<img src="resources/paper-inqmad.svg"> </img>
+				</div>
+			</section>
+
+    <section 
+      data-background-image="resources/motivation_background_incremental.svg" data-background-size="200px" data-background-position="98% 2%" 
+          data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+				aria-hidden="true">
+				<div class="text-image">
+					<img src="resources/paper-inqmad-extended.svg"> </img>
+				</div>
+			</section>
+
+
+
+
 			<!-- CONCLUSIONS -->
 
 			<section
@@ -1115,24 +1013,24 @@ Each graph represents the density estimate obtained by a specific algorithm on a
 			</section>
 
 
+
         <section
       data-background-image="resources/motivation_background_incremental.svg" data-background-size="200px" data-background-position="98% 2%" 
           data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
                                                                                                  aria-hidden="true">
 				<h2 data-auto-animate-target="11">Other Contributions</h2>
           <div class="text-image">
-            <img src="resources/paper_learning_with_density_matrices.png"> </img>
+            <img src="resources/paper-robust-kernels.svg"> </img>
           </div>
         </section>
 
-
         <section
       data-background-image="resources/motivation_background_incremental.svg" data-background-size="200px" data-background-position="98% 2%" 
           data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
                                                                                                  aria-hidden="true">
 				<h2 data-auto-animate-target="11">Other Contributions</h2>
           <div class="text-image">
-            <img src="resources/robust-kernels-paper.png"> </img>
+            <img src="resources/paper-dmkde.svg"> </img>
           </div>
         </section>
 
@@ -1144,6 +1042,18 @@ Each graph represents the density estimate obtained by a specific algorithm on a
 				<h2 data-auto-animate-target="11">Other Contributions</h2>
           <div class="text-image">
             <img src="resources/quantum-mixtures-model-paper.png"> </img>
+          </div>
+        </section>
+
+
+
+        <section
+      data-background-image="resources/motivation_background_incremental.svg" data-background-size="200px" data-background-position="98% 2%" 
+          data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+                                                                                                 aria-hidden="true">
+				<h2 data-auto-animate-target="11">Fellowship / Research Position</h2>
+          <div class="text-image">
+            <img src="resources/fdl.png"> </img>
           </div>
         </section>
 
@@ -1194,11 +1104,67 @@ Bustos-Brinez, O., Gallego-Mejia, J., & González, F. A. (2022). Anomaly Detecti
 				</ul>
 			</section>
 
+			<section data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: none;" hidden=""
+			aria-hidden="true">
+				<h2 data-auto-animate-target="11">List of contributions (Software)</h2>
+				<ul>
+					<li>
+Gallego-Mejia, J., Bustos-Brinez, O., González, F. A (2023). Joaggi/lean-dmkde:v1.0 (v1.0). Zenodo. https://doi.org/10.5281/zenodo.7709642
+    
+</li>
+					<li>
+
+Gallego-Mejia, J., González, F. A (2022). Joaggi/demande: v1.0 (v1.0). Zenodo.https://doi.org/10.5281/zenodo.7709634
+
+					</li>
+					<li>
+Gallego M., Joseph A., Osorio, Juan F., González, Fabio A. (2022). Fast Kernel Density Estimation with Density Matrices and Random Fourier Features Software (1.0.1). Zenodo. https://doi.org/10.5281/zenodo.6941020
+
+					</li>
+					<li>
+Bustos-Brinez, O., Gallego-Mejia, J., González, F. A. (2022). Joaggi/anomalydetection-density-matrix-kernel-density-estimation: v1.0.0 (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.7308904
+					</li>
+					<li>
+Gallego-Mejia, J., Bustos-Brinez, O., González, F. A (2022). Joaggi/Incremental-Anomaly-Detection-using-Quantum-Measurements: v1.0.0 (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.7183564
+					</li>
+						<li>
+Gallego-Mejia, J., González, F. A (2023). Joaggi/Robust-kernels-for-robust-locationestimation: v1.0 (v1.0). Zenodo. https://doi.org/10.5281/zenodo.7709651
+					</li>
+	
+				</ul>
+			</section>
 
 
- 
- 
 
+			<section data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: none;" hidden=""
+			aria-hidden="true">
+				<h2 data-auto-animate-target="11">List of contributions (Datasets)</h2>
+				<ul>
+					<li>
+ Gallego-Mejia, Joseph A., Gonzalez, Fabio A. (2023). DEMANDE Dataset (V1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7822851
+    
+</li>
+					</ul>
+			</section>
+
+			<section data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: none;" hidden=""
+			aria-hidden="true">
+				<h2 data-auto-animate-target="11">List of contributions (Other Contributions)</h2>
+				<ul>
+					<li>
+ Gallego, J. A., González, F. A., & Nasraoui, O. (2021). Robust kernels for robust location estimation. Neurocomputing, 429, 174-186 [54]. 
+        </li>
+					<li>
+ Gallego, J. A., González, F. A., (2019). Robust Estimation in Reproducing Kernel Hilbert Space [Poster Presentation]. Neural Information Processing Systems Conference: LatinX in AI (LXAI) Research Workshop 2019, Vancouver, Canada. https://doi.org/10.52591/lxai2019120829
+        </li>
+					<li>
+ Useche, D. H., Bustos-Brinez, O. A., Gallego, J. A., & González, F. A. (2022). Computing expectation values of adaptive Fourier density matrices for quantum anomaly detection in NISQ devices. In arXiv: 2201.10006.
+        </li>
+					<li>
+ Gallego-Mejia, J., Bustos-Brinez, O., & González, F. A. (2023). LEAN-DMKDE: Quantum Latent Density Estimation for Anomaly Detection (Student Abstract). Association for the Advancement of Artificial Intelligence (AAAI 2023)
+        </li>
+					</ul>
+			</section>
 
 
 
@@ -1209,7 +1175,6 @@ Bustos-Brinez, O., Gallego-Mejia, J., & González, F. A. (2022). Anomaly Detecti
           <center>
           <h2>Thank You!</h2><br>
 					jagallegom@unal.edu.co<br>
-          <a>https://github.com/Joaggi/Incremental-Anomaly-Detection-using-Quantum-Measurements</a>
           </center>
 				</ul>
 			</section>
@@ -1657,6 +1622,39 @@ Bustos-Brinez, O., Gallego-Mejia, J., & González, F. A. (2022). Anomaly Detecti
         </section>
 
 
+	
+      <section
+
+      data-background-image="resources/motivation_background_density.svg" data-visibility="uncounted" data-background-size="200px" data-background-position="98% 2%" 
+ 
+          data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Aplications</h1>
+					<div class="text-image">
+						<div style="width:50%; float:left;">
+							<img src="resources/generative_model.png" alt="Generative Models" width="70%">
+							<p>Generative Models</p>
+						</div>
+						<div style="width:46%; float:right;">
+							<img src="resources/kde_kernel.png" alt="Choropleth Maps" width="77%"
+								style="margin-top: 0px; margin-bottom: 0px;"><br>
+							Density Estimation
+						</div>
+						<div style="width:50%; float:left;">
+							<img src="resources/anomaly_detection_graph.png" alt="Anomaly Detection" width="60%"><bR>
+							Anomaly Detection
+						</div>
+
+						<div style="width:50%; float:right;">
+							<img src="resources/classification.png" alt="Classification" width="50%">
+              <br>
+
+							Classification
+						</div>
+					</div>
+				</section>
+
+
 
 	
 			<section>
@@ -1807,7 +1805,109 @@ Bustos-Brinez, O., Gallego-Mejia, J., & González, F. A. (2022). Anomaly Detecti
         </section>
 
 			</section>
+    <section>
+        <section data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: block;" hidden=""
+                                                                                                aria-hidden="true">
+          <h1 data-auto-animate-target="11">ANDM</h1>
 
+				</section>
+
+
+				<section
+      data-background-image="resources/motivation_background_anomaly.svg" data-background-size="200px" data-background-position="98% 2%" 
+          data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: none;" hidden=""
+				aria-hidden="true">
+					<h2 data-auto-animate-target="11">Training Stage</h2>
+					<img src="resources/trainingstage.png" alt="Websocket" width="30%" style="float: right">
+					<div style="width: 60%; margin-top: 10%;">
+						<ol>
+							<li>Generate \(\mathbb{w} = (w_1, \cdots, w_D) \) and \(\mathbb{b} = (b_1, \cdots, b_D) \)</li>
+							<li>Optimization of \(\mathbb{w} \) and \(\mathbb{b} \) (AFF)</li>
+							<li>Embed each training data point step</li>
+							<li>Normalization of the embeddings</li>
+              <li><b>Density Matrix building</b>:  by adding the outer products of all training embeddings</li>
+						</ol>
+					</div>
+				</section>
+
+				<section
+      data-background-image="resources/motivation_background_anomaly.svg" data-background-size="200px" data-background-position="98% 2%" 
+          data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: none;" hidden=""
+				aria-hidden="true">
+					<h2 data-auto-animate-target="11">Validation Stage and Hyperparameter Tuning
+</h2>
+					<img src="resources/validationstage.png" alt="Websocket" width="33%" style="float: right">
+					<div style="width: 60%; margin-top: 10%;">
+						<ol>
+							<li>RFF embedding of the validation samples</li>
+							<li>Density using an the Born rule </li>
+							<li>Compute a threshold \(\theta\) as discriminator
+							</li>
+						</ol>
+					</div>
+				</section>
+
+				<section
+      data-background-image="resources/motivation_background_anomaly.svg" data-background-size="200px" data-background-position="98% 2%" 
+          data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: none;" hidden=""
+				aria-hidden="true">
+					<h2 data-auto-animate-target="11">Prediction/Test Stage</h2>
+					<img src="resources/predictionstage.png" alt="Websocket" width="33%" style="float: right">
+					<div style="width: 60%; margin-top: 11%;">
+						<ol>
+							<li>RFF embedding of the test samples</li>
+							<li>Density using an the Born rule </li>
+              <li>Using the threshold \(\theta\), classify each test sample as <b>normal</b> if its density
+                lies above the threshold, or as <b>anomaly</b> if its density lies below the threshold
+							</li>
+						</ol>
+					</div>
+				</section>
+
+				<section
+      data-background-image="resources/motivation_background_anomaly.svg" data-background-size="200px" data-background-position="98% 2%" 
+        data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: none;" hidden=""
+				aria-hidden="true">
+					<h2 data-auto-animate-target="11">Results</h2>
+					\[\tiny{
+					\begin{array}[c]{l||c|c|c|c|c|c|c|c|c|c|c||c}
+					\hline
+         Dataset & Lean-dmkde & Ad-dmkde & Autoenc. & iForest & Covar. & KNN & VAE-B & COPOD & LODA & ALAD & OCSVM & LOF & SOS & LAKE & DSVDD \\ \hline
+					\hline
+        Annthyroid & \textit{0,248} & 0,187 & 0,232 & \underline{0,34} & \textbf{0,504} & 0,212 & 0,209 & 0,197 & 0,147 & 0,192 & 0,127 & 0,186 & 0,142 & 0,174 & 0,083 \\ 
+        Arrhythmia & 0,454 & \underline{0,534} & 0,515 & \textit{0,558} & 0,459 & 0,514 & 0,532 & \textbf{0,566} & 0,365 & 0,393 & 0,425 & 0,433 & 0,472 & 0,116 & 0,32 \\ 
+        Breastw & \underline{0,988} & \textit{0,987} & 0,98 & \textbf{0,994} & 0,969 & \underline{0,988} & 0,968 & \textit{0,987} & 0,963 & 0,958 & 0,825 & 0,335 & 0,886 & 0,864 & 0,904 \\ 
+        Cardio & 0,47 & \underline{0,627} & \textit{0,604} & \textbf{0,693} & 0,469 & 0,555 & 0,595 & 0,581 & 0,198 & 0,507 & 0,465 & 0,185 & 0,254 & 0,116 & 0,267 \\ 
+        ForestCover & \underline{0,465} & \textbf{0,494} & 0,033 & 0,097 & 0,015 & 0,06 & 0,07 & 0,06 & 0,065 & 0,043 & \textit{0,116} & 0,015 & 0 & 0,095 & 0,01 \\ 
+        Glass & \textbf{0,643} & \underline{0,167} & 0,077 & 0,072 & 0,097 & 0,121 & 0,077 & 0,076 & 0,058 & 0,056 & 0,035 & 0,035 & 0,072 & 0,036 & \textit{0,143} \\ 
+        Ionosphere & 0,797 & \textbf{0,984} & \underline{0,966} & 0,711 & 0,92 & 0,951 & 0,778 & 0,77 & 0,449 & 0,848 & 0,754 & 0,837 & 0,843 & 0,228 & \textit{0,958} \\ 
+        Letter & 0,156 & \textbf{0,489} & \textit{0,29} & 0,111 & 0,241 & 0,228 & 0,087 & 0,072 & 0,063 & 0,081 & 0,075 & \underline{0,375} & 0,288 & 0,036 & 0,271 \\ 
+        Mammogr. & 0,253 & 0,187 & \underline{0,356} & \textit{0,307} & 0,145 & 0,193 & 0,196 & \textbf{0,416} & 0,154 & 0,19 & 0,042 & 0,113 & 0,072 & 0,072 & 0,078 \\ 
+        MNIST & \textbf{0,71} & \textit{0,549} & \underline{0,551} & 0,326 & 0,494 & 0,468 & 0,431 & 0,246 & 0,185 & 0,264 & 0,216 & 0,309 & 0,228 & 0,333 & 0,148 \\ 
+        Musk & 0,747 & \textbf{1} & \textbf{1} & 0,891 & \textit{0,982} & \underline{0,992} & \textbf{1} & 0,449 & 0,545 & 0,142 & 0,214 & 0,032 & 0,251 & 0,853 & 0,026 \\ 
+        OptDigits & \textit{0,407} & \underline{0,526} & \textbf{0,555} & 0,034 & 0,021 & 0,022 & 0,028 & 0,044 & 0,017 & 0,021 & 0,024 & 0,032 & 0,032 & 0,021 & 0,026 \\ 
+        PenDigits & \textbf{0,672} & \underline{0,614} & 0,173 & \textit{0,339} & 0,092 & 0,208 & 0,208 & 0,162 & 0,289 & 0,121 & 0,118 & 0,018 & 0,063 & 0,06 & 0,048 \\ 
+        Pima & \underline{0,572} & \textbf{0,596} & 0,487 & 0,463 & 0,49 & \textit{0,497} & 0,45 & 0,479 & 0,339 & 0,424 & 0,393 & 0,463 & 0,415 & 0,319 & 0,453 \\ 
+        Satellite & \underline{0,809} & \textbf{0,882} & \textit{0,795} & 0,66 & 0,76 & 0,61 & 0,631 & 0,601 & 0,596 & 0,561 & 0,54 & 0,36 & 0,354 & 0,23 & 0,32 \\ 
+        SatImage & 0,918 & 0,764 & \underline{0,948} & 0,912 & 0,635 & \textbf{0,955} & 0,822 & 0,751 & \textit{0,923} & 0,575 & 0,394 & 0,06 & 0,056 & 0,175 & 0,014 \\ 
+        Shuttle & \textbf{0,986} & 0,957 & \textit{0,96} & \underline{0,968} & 0,842 & 0,19 & 0,922 & 0,954 & 0,911 & 0,878 & 0,568 & 0,1 & 0,111 & 0,163 & 0,072 \\ 
+        SpamBase & \textbf{0,966} & \underline{0,818} & 0,487 & 0,372 & 0,307 & 0,345 & 0,348 & 0,44 & 0,302 & 0,264 & 0,273 & 0,155 & 0,26 & \textit{0,576} & 0,231 \\ 
+        Speech & \underline{0,043} & 0,016 & 0,019 & 0,023 & 0,022 & 0,019 & 0,02 & 0,02 & 0,029 & 0,02 & 0,019 & \textbf{0,044} & 0,024 & 0,026 & \textit{0,028} \\ 
+        Thyroid & 0,364 & 0,374 & \textit{0,499} & \underline{0,675} & \textbf{0,688} & 0,324 & 0,442 & 0,223 & 0,131 & 0,402 & 0,286 & 0,293 & 0,082 & 0,013 & 0,125 \\ 
+        Vertebral & \textbf{0,787} & \underline{0,26} & 0,197 & 0,133 & 0,138 & 0,125 & 0,165 & 0,119 & 0,106 & 0,123 & \textit{0,218} & 0,153 & 0,121 & 0,164 & 0,077 \\ 
+        Vowels & 0,276 & \textbf{0,757} & \textit{0,574} & 0,074 & 0,05 & \underline{0,641} & 0,148 & 0,049 & 0,05 & 0,075 & 0,083 & 0,374 & 0,199 & 0,267 & 0,217 \\ 
+        WBC & \underline{0,758} & \textit{0,703} & 0,489 & 0,587 & 0,597 & 0,484 & 0,506 & 0,7 & 0,626 & 0,161 & 0,229 & \textbf{0,76} & 0,476 & 0,237 & 0,192 \\ 
+        Wine & \textbf{1} & 0,467 & \underline{0,756} & 0,61 & \underline{0,756} & 0,444 & 0,297 & 0,533 & 0,494 & 0,421 & 0,242 & \textit{0,639} & 0,091 & 0,274 & 0,137 \\ 
+					\hline
+    \hline
+        Mean & \textbf{0,6036}& \underline{0,5807}& \textit{0,5226} & 0,4562 & 0,4455 & 0,4227 & 0,4137 & 0,3956 & 0,3335 & 0,3216 & 0,2783 & 0,2627 & 0,2413 & 0,227 & 0,2145 \\ 
+					\end{array}} 
+					\]
+				</section>
+
+
+
+			</section>
 
 			<section>
         <section data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: block;" hidden=""
