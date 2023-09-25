@@ -27,15 +27,31 @@
 				
 				<img src="resources/unal.png" style="width: 220px; " />
 				<h2 style="margin-top: 30px;">Efficient Non-parametric Neural Density Estimation and Its Application to Outlier and Anomaly Detection</h2>
-				<h4 style="font-weight: 100; margin-top: 40px;">Joseph A. Gallego-Mejia / Fabio González</h4>
-				<b style="font-weight: 80; font-size: 20px;">jagallegom@unal.edu.co / fagonzalezo@unal.edu.co</b>
+				<h4 style="font-weight: 100;">Joseph A. Gallego M.</h4>
+				<h5>Advisor</h5>
+				<h5>Fabio A. González O.</h5>
 				<h6 style="font-weight: 100; font-size: 18px; margin-top: 20px;">
 					Computing Systems and Industrial Engineering Department – Bogota, Colombia
 				</h6>
 
 			</section>
 
-		
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+				aria-hidden="true">
+				<div class="text-image">
+            <h2>Outline</h2>
+            <ul>
+              <li>1. Background and Motivation</li>
+              <li style="color: gray">2. Problem Statement</li>
+              <li style="color: gray">3. Neural Density Estimation: Demande</li>
+              <li style="color: gray">4. Anomaly Detection: L&ANDM </li>
+              <li style="color: gray">5. Incremental Anomaly Detection: INQMAD</li>
+              <li style="color: gray">6. Contributions and Conclusions</li>
+            <ul
+				</div>
+			</section>
+
+	
 
 			<section class="title-slide has-dark-background present" data-visibility="uncounted" astyle="top: 312px; display: block;">
 				<h1>Background</h1>
@@ -129,6 +145,22 @@
 					<img src="resources/density-estimation-background.png" width="100%"> </img><br>
 				</section>
 
+
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+				aria-hidden="true">
+				<div class="text-image">
+            <h2>Outline</h2>
+            <ul>
+              <li style="color: gray">1. Background and Motivation</li>
+              <li>2. Problem Statement</li>
+              <li style="color: gray">3. Neural Density Estimation: Demande</li>
+              <li style="color: gray">4. Anomaly Detection: L&ANDM </li>
+              <li style="color: gray">5. Incremental Anomaly Detection: INQMAD</li>
+              <li style="color: gray">6. Contributions and Conclusions</li>
+
+            <ul
+				</div>
+			</section>
 
 		
 			
@@ -271,6 +303,116 @@
 					</table>
 				</section>
 
+			<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+				aria-hidden="true">
+				<div class="text-image">
+					<img src="resources/motivation1.svg"> </img>
+				</div>
+			</section>
+
+			<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+				aria-hidden="true">
+				<div class="text-image">
+					<img src="resources/motivation.svg"> </img>
+				</div>
+			</section>
+
+			<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+				aria-hidden="true">
+				<div class="text-image">
+					<img src="resources/motivation4.svg"> </img>
+				</div>
+			</section>
+
+				<section data-auto-animate="" data-visibility="uncounted" class="future" style="top: 99.5px; display: none;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Kernel Density Estimation</h1>
+					<div class="text-image">
+						<img src="resources/kde_kernel.svg" alt="Websocket" width="40%" style="float: right">
+						<div style="width: 60%;">
+							<ul>
+								<li>Non-parametric density estimation method.</li>
+								<li>Does not make any particular assumption about the underlying probability density
+									function.</li>
+								<li>Unbiased estimator of the pdf.</li>
+							</ul>
+						</div>
+					</div>
+					<img src="resources/kde_equation.svg" width="100%"> </img>
+
+				</section>
+
+        <section data-auto-animate data-visibility="uncounted" class="future" style="top: 99.5px; display: none;" hidden=""
+					aria-hidden="true">
+					<h1 data-auto-animate-target="">Random Fourier Features</h1>
+					<div class="text-image">
+            <img src="resources/gaussian_aff.png" alt="Websocket" width="30%" style="float: right">
+						<div width="50%">
+						
+							<ul>
+								<li><b>Idea</b>: feature space approximation. </li>
+								<li>Given \( k:\mathbb{R}^d \times \mathbb R^d \rightarrow \mathbb R\)
+									<br> builds an embedding \( \phi_{\text{rff}}: \mathbb R^d \rightarrow
+									\mathbb{R}^D\)
+									<br> such that \[ k(x,y) \approx \langle \phi_{\text{rff}}(x), \phi_{\text{rff}}(y)
+									\rangle \]
+
+								</li>
+								<li><b>Result:</b> learn models involving non-linear kernels using linear
+									methods</li>
+
+								<li><b>AFF</b>: further optimization using neural networks. </li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+
+
+        <section data-auto-animate="running"  data-visibility="uncounted" class="future" style="top: 312px; display: block;" hidden=""
+                                                                                                aria-hidden="true">
+          <h1 data-auto-animate-target="11">Density Matrices</h1>
+          <h2 data-auto-animate-target="11">Are they useful for statistics and ML?</h2>
+          <img src="resources/density_matrix.svg" alt="Websocket" width="45%" style="float: right">
+          <div style="width: 55%;">
+            <div>
+              <ul>
+                <li>A more general model of probability.</li>
+                <li>It combines linear algebra and probability</li>
+                <li>Probability calculations with linear algebra</li>
+
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section
+      data-background-image="resources/motivation_background_density.svg" data-background-size="200px" data-background-position="98% 2%" 
+          data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+                                                                                                 aria-hidden="true">
+				<h1 data-auto-animate-target="11">How to represent complex distributions?</h1>
+				<h2 data-auto-animate-target="11">Density Matrices</h2>
+          <div class="text-image">
+            <img src="resources/density-matrices.svg"> </img>
+          </div>
+The learning process of adaptive Fourier features (AFF) through a siamese neural network. 
+        </section>
+	
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+				aria-hidden="true">
+				<div class="text-image">
+            <h2>Outline</h2>
+            <ul>
+              <li style="color: gray">1. Background and Motivation</li>
+              <li style="color: gray">2. Problem Statement</li>
+              <li>3. Neural Density Estimation: Demande</li>
+              <li style="color: gray">4. Anomaly Detection: L&ANDM </li>
+              <li style="color: gray">5. Incremental Anomaly Detection: INQMAD</li>
+              <li style="color: gray">6. Contributions and Conclusions</li>
+
+            <ul
+				</div>
+			</section>
+
 
         <section
 
@@ -405,18 +547,7 @@ Each graph represents the density estimate obtained by a specific algorithm on a
       <section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
                                                                                                  aria-hidden="true">
           <div class="text-image">
-            <img src="resources/paper_fast_kernel_density_estimation.png"> </img>
-          </div>
-        </section>
-
-
-        <section
-
-      data-background-image="resources/motivation_background_density.svg" data-background-size="200px" data-background-position="98% 2%" 
-          data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
-                                                                                                 aria-hidden="true">
-          <div class="text-image">
-            <img src="resources/paper-demande.svg"> </img>
+            <img src="resources/paper-neural-density.svg"> </img>
           </div>
         </section>
 
@@ -424,43 +555,9 @@ Each graph represents the density estimate obtained by a specific algorithm on a
 
 			<section
       data-background-image="resources/motivation_background_density.svg" data-background-size="200px" data-background-position="98% 2%" 
-          data-auto-animate="running" class="future" style="top: 312px; display: none;" hidden=""
-			aria-hidden="true">
-				<h2 data-auto-animate-target="11">Conclusions</h2>
-				<ul>
-					<li>DEMANDE uses the  kernel approximation given by adaptive Fourier features and density estimation</li>
-        </ul>
-			</section>
-
-			<section
-      data-background-image="resources/motivation_background_density.svg" data-background-size="200px" data-background-position="98% 2%" 
           data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: none;" hidden=""
 			aria-hidden="true">
-				<h2 data-auto-animate-target="11">Conclusions</h2>
-				<ul>
-					<li>DEMANDE uses the  kernel approximation given by adaptive Fourier features and density estimation</li>
-					<li>It is not a memory based algorithm</li>
-        </ul>
-			</section>
-
-			<section
-      data-background-image="resources/motivation_background_density.svg" data-background-size="200px" data-background-position="98% 2%" 
-          data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: none;" hidden=""
-			aria-hidden="true">
-				<h2 data-auto-animate-target="11">Conclusions</h2>
-				<ul>
-					<li>DEMANDE uses the  kernel approximation given by adaptive Fourier features and density estimation</li>
-					<li>It is not a memory based algorithm</li>
-					<li>It can be combined with deep learning methods</li>
-        </ul>
-			</section>
-
-
-			<section
-      data-background-image="resources/motivation_background_density.svg" data-background-size="200px" data-background-position="98% 2%" 
-          data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: none;" hidden=""
-			aria-hidden="true">
-				<h2 data-auto-animate-target="11">Conclusions</h2>
+				<h2 data-auto-animate-target="11">Insights Neural Density Estimation</h2>
 				<ul>
 					<li>DEMANDE uses the  kernel approximation given by adaptive Fourier features and density estimation</li>
 					<li>It is not a memory based algorithm</li>
@@ -469,6 +566,24 @@ Each graph represents the density estimate obtained by a specific algorithm on a
         </ul>
 			</section>
 	
+
+
+	
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+				aria-hidden="true">
+				<div class="text-image">
+            <h2>Outline</h2>
+            <ul>
+              <li style="color: gray">1. Background and Motivation</li>
+              <li style="color: gray">2. Problem Statement</li>
+              <li style="color: gray">3. Neural Density Estimation: Demande</li>
+              <li>4. Anomaly Detection: L&ANDM </li>
+              <li style="color: gray">5. Incremental Anomaly Detection: INQMAD</li>
+              <li style="color: gray">6. Contributions and Conclusions</li>
+
+            <ul
+				</div>
+			</section>
 
 
 			<section
@@ -657,67 +772,16 @@ Each graph represents the density estimate obtained by a specific algorithm on a
                                                                                                  aria-hidden="true">
 			
           <div class="text-image">
-            <img src="resources/paper-andm.svg" > </img>
+            <img src="resources/paper-anomaly-detection.svg" > </img>
           </div>
         </section>
 
 
-        <section 
-      data-background-image="resources/motivation_background_anomaly.svg" data-background-size="200px" data-background-position="98% 2%" 
-          data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
-                                                                                                 aria-hidden="true">
-			
-          <div class="text-image">
-            <img src="resources/paper-landm.svg" > </img>
-          </div>
-        </section>
-			<!-- CONCLUSIONS -->
-
-			<section
-      data-background-image="resources/motivation_background_anomaly.svg" data-background-size="200px" data-background-position="98% 2%" 
-          data-auto-animate="running" class="future" style="top: 312px; display: none;" hidden=""
-			aria-hidden="true">
-				<h2 data-auto-animate-target="11">Conclusions</h2>
-				<ul>
-					<li>LANDM show better performance than state-of-the-art algorithms over twenty anomaly detection data sets. </li>
-        </ul>
-			</section>
-
-
 			<section
       data-background-image="resources/motivation_background_anomaly.svg" data-background-size="200px" data-background-position="98% 2%" 
           data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: none;" hidden=""
 			aria-hidden="true">
-				<h2 data-auto-animate-target="11">Conclusions</h2>
-				<ul>
-					<li>LANDM show better performance than state-of-the-art algorithms over twenty anomaly detection data sets. </li>
-					<li>The performance of LANDM does not seem to be affected by the anomaly rate of the data sets or the size
-						of the data sets, but it seems to perform better for low dimensionality data sets. 
-					</li>
-				</ul>
-			</section>
-
-
-			<section
-      data-background-image="resources/motivation_background_anomaly.svg" data-background-size="200px" data-background-position="98% 2%" 
-          data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: none;" hidden=""
-			aria-hidden="true">
-				<h2 data-auto-animate-target="11">Conclusions</h2>
-				<ul>
-					<li>LANDM show better performance than state-of-the-art algorithms over twenty anomaly detection data sets. </li>
-					<li>The performance of LANDM does not seem to be affected by the anomaly rate of the data sets or the size
-						of the data sets, but it seems to perform better for low dimensionality data sets. 
-					</li>
-					<li>In contrast with KDE, LANDM does not have huge memory requirements.</li>
-				</ul>
-			</section>
-
-
-			<section
-      data-background-image="resources/motivation_background_anomaly.svg" data-background-size="200px" data-background-position="98% 2%" 
-          data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: none;" hidden=""
-			aria-hidden="true">
-				<h2 data-auto-animate-target="11">Conclusions</h2>
+				<h2 data-auto-animate-target="11">Insights Anomaly Detection</h2>
 				<ul>
 					<li>LANDM show better performance than state-of-the-art algorithms over twenty anomaly detection data sets. </li>
 					<li>The performance of LANDM does not seem to be affected by the anomaly rate of the data sets or the size
@@ -728,12 +792,30 @@ Each graph represents the density estimate obtained by a specific algorithm on a
 			</section>
 
       
+	
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+				aria-hidden="true">
+				<div class="text-image">
+            <h2>Outline</h2>
+            <ul>
+              <li style="color: gray">1. Background and Motivation</li>
+              <li style="color: gray">2. Problem Statement</li>
+              <li style="color: gray">3. Neural Density Estimation: Demande</li>
+              <li style="color: gray">4. Anomaly Detection: L&ANDM </li>
+              <li>5. Incremental Anomaly Detection: INQMAD</li>
+              <li style="color: gray">6. Contributions and Conclusions</li>
+
+            <ul
+				</div>
+			</section>
+
+
 
 
 			<section
       data-background-image="resources/motivation_background_incremental.svg" data-background-size="200px" data-background-position="98% 2%" 
           class="title-slide has-dark-background present" data-visibility="uncounted" astyle="top: 312px; display: block;">
-				<h1>Streaming Anomaly Detection</h1>
+				<h1>Incremental Anomaly Detection</h1>
 			</section>
 
 				<section  
@@ -951,23 +1033,15 @@ Each graph represents the density estimate obtained by a specific algorithm on a
 
 
 
-    <section 
-      data-background-image="resources/motivation_background_incremental.svg" data-background-size="200px" data-background-position="98% 2%" 
+        <section
+      data-background-image="resources/motivation_background_anomaly.svg" data-background-size="200px" data-background-position="98% 2%" 
           data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
-				aria-hidden="true">
-				<div class="text-image">
-					<img src="resources/paper-inqmad.svg"> </img>
-				</div>
-			</section>
-
-    <section 
-      data-background-image="resources/motivation_background_incremental.svg" data-background-size="200px" data-background-position="98% 2%" 
-          data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
-				aria-hidden="true">
-				<div class="text-image">
-					<img src="resources/paper-inqmad-extended.svg"> </img>
-				</div>
-			</section>
+                                                                                                 aria-hidden="true">
+			
+          <div class="text-image">
+            <img src="resources/paper-incremental-anomaly-detection.svg" > </img>
+          </div>
+        </section>
 
 
 
@@ -976,32 +1050,9 @@ Each graph represents the density estimate obtained by a specific algorithm on a
 
 			<section
       data-background-image="resources/motivation_background_incremental.svg" data-background-size="200px" data-background-position="98% 2%" 
-          data-auto-animate="running" class="future" style="top: 312px; display: none;" hidden=""
-			aria-hidden="true">
-				<h2 data-auto-animate-target="11">Conclusions</h2>
-				<ul>
-					<li>InQMAD show better performance than state-of-the-art algorithms over twelve anomaly detection data sets. </li>
-				</ul>
-			</section>
-
-
-			<section
-      data-background-image="resources/motivation_background_incremental.svg" data-background-size="200px" data-background-position="98% 2%" 
           data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: none;" hidden=""
 			aria-hidden="true">
-				<h2 data-auto-animate-target="11">Conclusions</h2>
-				<ul>
-					<li>InQMAD show better performance than state-of-the-art algorithms over twelve anomaly detection data sets. </li>
-					<li>It computes density estimation given a normality measure for each point. </li>
-				</ul>
-			</section>
-
-
-			<section
-      data-background-image="resources/motivation_background_incremental.svg" data-background-size="200px" data-background-position="98% 2%" 
-          data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: none;" hidden=""
-			aria-hidden="true">
-				<h2 data-auto-animate-target="11">Conclusions</h2>
+				<h2 data-auto-animate-target="11">Insights Incremental Anomaly Detection</h2>
 				<ul>
 					<li>InQMAD show better performance than state-of-the-art algorithms over twelve anomaly detection data sets. </li>
 					<li>It computes density estimation given a normality measure for each point. </li>
@@ -1013,49 +1064,53 @@ Each graph represents the density estimate obtained by a specific algorithm on a
 			</section>
 
 
+	
+				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+				aria-hidden="true">
+				<div class="text-image">
+            <h2>Outline</h2>
+            <ul>
+              <li style="color: gray">1. Background and Motivation</li>
+              <li style="color: gray">2. Problem Statement</li>
+              <li style="color: gray">3. Neural Density Estimation: Demande</li>
+              <li style="color: gray">4. Anomaly Detection: L&ANDM </li>
+              <li style="color: gray">5. Incremental Anomaly Detection: INQMAD</li>
+              <li>6. Contributions and Conclusions</li>
+
+            <ul
+				</div>
+			</section>
 
         <section
-      data-background-image="resources/motivation_background_incremental.svg" data-background-size="200px" data-background-position="98% 2%" 
-          data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+             data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
                                                                                                  aria-hidden="true">
 				<h2 data-auto-animate-target="11">Other Contributions</h2>
           <div class="text-image">
-            <img src="resources/paper-robust-kernels.svg"> </img>
-          </div>
-        </section>
-
-        <section
-      data-background-image="resources/motivation_background_incremental.svg" data-background-size="200px" data-background-position="98% 2%" 
-          data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
-                                                                                                 aria-hidden="true">
-				<h2 data-auto-animate-target="11">Other Contributions</h2>
-          <div class="text-image">
-            <img src="resources/paper-dmkde.svg"> </img>
-          </div>
-        </section>
-
-
-        <section
-      data-background-image="resources/motivation_background_incremental.svg" data-background-size="200px" data-background-position="98% 2%" 
-          data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
-                                                                                                 aria-hidden="true">
-				<h2 data-auto-animate-target="11">Other Contributions</h2>
-          <div class="text-image">
-            <img src="resources/quantum-mixtures-model-paper.png"> </img>
+            <img src="resources/paper-other-contributions.svg"> </img>
           </div>
         </section>
 
 
 
         <section
-      data-background-image="resources/motivation_background_incremental.svg" data-background-size="200px" data-background-position="98% 2%" 
-          data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+             data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
                                                                                                  aria-hidden="true">
-				<h2 data-auto-animate-target="11">Fellowship / Research Position</h2>
+				<h2 data-auto-animate-target="11">Thesis in Numbers</h2>
           <div class="text-image">
-            <img src="resources/fdl.png"> </img>
+            <img src="resources/thesis-in-numbers.svg"> </img>
           </div>
         </section>
+
+			<section data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: none;" hidden=""
+			aria-hidden="true">
+				<ul>
+          <center>
+          <h2>Thank You!</h2><br>
+					jagallegom@unal.edu.co<br>
+          </center>
+				</ul>
+			</section>
+
 
 			<section
           data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: none;" hidden=""
@@ -1169,18 +1224,6 @@ Gallego-Mejia, J., González, F. A (2023). Joaggi/Robust-kernels-for-robust-loca
 
 
 
-			<section data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: none;" hidden=""
-			aria-hidden="true">
-				<ul>
-          <center>
-          <h2>Thank You!</h2><br>
-					jagallegom@unal.edu.co<br>
-          </center>
-				</ul>
-			</section>
-
-
-
 	
       <section>
 
@@ -1233,31 +1276,6 @@ Gallego-Mejia, J., González, F. A (2023). Joaggi/Robust-kernels-for-robust-loca
 					<h1>Kernel Density Estimation</h1>
 				</section>
 
-				<section data-auto-animate="" data-visibility="uncounted" class="future" style="top: 99.5px; display: none;" hidden=""
-					aria-hidden="true">
-					<h1 data-auto-animate-target="">Kernel Density Estimation</h1>
-					<div class="text-image">
-							<ul>
-								<li>Non-parametric density estimation method.</li>
-							</ul>
-					</div>
-
-				</section>
-
-
-				<section data-auto-animate="" data-visibility="uncounted" class="future" style="top: 99.5px; display: none;" hidden=""
-					aria-hidden="true">
-					<h1 data-auto-animate-target="">Kernel Density Estimation</h1>
-					<div class="text-image">
-							<ul>
-								<li>Non-parametric density estimation method.</li>
-								<li>Does not make any particular assumption about the underlying probability density
-									function.</li>
-							</ul>
-					</div>
-
-				</section>
-
 
 				<section data-auto-animate="" data-visibility="uncounted" class="future" style="top: 99.5px; display: none;" hidden=""
 					aria-hidden="true">
@@ -1286,37 +1304,7 @@ Gallego-Mejia, J., González, F. A (2023). Joaggi/Robust-kernels-for-robust-loca
 					<h1>Kernel Density Estimation Problems</h1>
 				</section>
 
-				<section data-auto-animate data-visibility="uncounted" class="future" style="top: 99.5px; display: none;" hidden=""
-					aria-hidden="true">
-					<h1 data-auto-animate-target="">Kernel Density Estimation Problems</h1>
-
-							<ul>
-								<li style="font-size:30px">Inneficient. Memory based algorithm.</li>
-							</ul>
-				</section>
-
-				<section data-auto-animate data-visibility="uncounted" class="future" style="top: 99.5px; display: none;" hidden=""
-					aria-hidden="true">
-					<h1 data-auto-animate-target="">Kernel Density Estimation Problems</h1>
-
-							<ul>
-								<li style="font-size:30px">Inneficient. Memory based algorithm.</li>
-								<li style="font-size:30px">High dimensional data.</li>
-							</ul>
-				</section>
-
 	
-				<section data-auto-animate data-visibility="uncounted" class="future" style="top: 99.5px; display: none;" hidden=""
-					aria-hidden="true">
-					<h1 data-auto-animate-target="">Kernel Density Estimation Problems</h1>
-
-							<ul>
-								<li style="font-size:30px">Inneficient. Memory based algorithm.</li>
-								<li style="font-size:30px">High dimensional data.</li>
-								<li style="font-size:30px">It is not differentiable.</li>
-							</ul>
-				</section>
-
 			
 
 
@@ -1367,28 +1355,6 @@ Gallego-Mejia, J., González, F. A (2023). Joaggi/Robust-kernels-for-robust-loca
 					<h1>Kernel Methods</h1>
 				</section>
 
-				<section data-auto-animate data-visibility="uncounted" class="future" style="top: 99.5px; display: none;" hidden=""
-					aria-hidden="true">
-					<h1 data-auto-animate-target="">Kernel Methods</h1>
-					<div class="text-image">
-								<ul>
-									<li>Feature space induced by a kernel function.</li>
-								</ul>
-					</div>
-				</section>
-
-
-				<section data-auto-animate data-visibility="uncounted" class="future" style="top: 99.5px; display: none;" hidden=""
-					aria-hidden="true">
-					<h1 data-auto-animate-target="">Kernel Methods</h1>
-					<div class="text-image">
-								<ul>
-									<li>Feature space induced by a kernel function.</li>
-									<li>High or infinite dimensional embedded feature space.</li>
-								</ul>
-					</div>
-				</section>
-
 
 				<section data-auto-animate data-visibility="uncounted" class="future" style="top: 99.5px; display: none;" hidden=""
 					aria-hidden="true">
@@ -1423,61 +1389,6 @@ Gallego-Mejia, J., González, F. A (2023). Joaggi/Robust-kernels-for-robust-loca
           <h1 data-auto-animate-target="11">Random Fourier Features</h1>
         </section>			
 
-        <section data-auto-animate data-visibility="uncounted" class="future" style="top: 99.5px; display: none;" hidden=""
-					aria-hidden="true">
-					<h1 data-auto-animate-target="">Random Fourier Features</h1>
-					<div class="text-image">
-						<div>
-							<ul>
-								<li><b>Idea</b>: feature space approximation. </li>
-
-								</li>
-							</ul>
-						</div>
-					</div>
-				</section>
-
-
-				<section data-auto-animate data-visibility="uncounted" class="future" style="top: 99.5px; display: none;" hidden=""
-					aria-hidden="true">
-					<h1 data-auto-animate-target="">Random Fourier Features</h1>
-					<div class="text-image">
-						<div>
-							<ul>
-								<li><b>Idea</b>: feature space approximation. </li>
-								<li>Given \( k:\mathbb{R}^d \times \mathbb R^d \rightarrow \mathbb R\)
-									<br> builds an embedding \( \phi_{\text{rff}}: \mathbb R^d \rightarrow
-									\mathbb{R}^D\)
-									<br> such that \[ k(x,y) \approx \langle \phi_{\text{rff}}(x), \phi_{\text{rff}}(y)
-									\rangle \]
-
-								</li>
-							</ul>
-						</div>
-					</div>
-				</section>
-
-			<section data-auto-animate data-visibility="uncounted" class="future" style="top: 99.5px; display: none;" hidden=""
-					aria-hidden="true">
-					<h1 data-auto-animate-target="">Random Fourier Features</h1>
-					<div class="text-image">
-						<div>
-							<ul>
-								<li><b>Idea</b>: feature space approximation. </li>
-								<li>Given \( k:\mathbb{R}^d \times \mathbb R^d \rightarrow \mathbb R\)
-									<br> builds an embedding \( \phi_{\text{rff}}: \mathbb R^d \rightarrow
-									\mathbb{R}^D\)
-									<br> such that \[ k(x,y) \approx \langle \phi_{\text{rff}}(x), \phi_{\text{rff}}(y)
-									\rangle \]
-
-								</li>
-								<li><b>Result:</b> learn models involving non-linear kernels using linear
-									methods</li>
-
-							</ul>
-						</div>
-					</div>
-				</section>
         <section data-auto-animate data-visibility="uncounted" class="future" style="top: 99.5px; display: none;" hidden=""
 					aria-hidden="true">
 					<h1 data-auto-animate-target="">Random Fourier Features</h1>
@@ -1528,21 +1439,7 @@ Gallego-Mejia, J., González, F. A (2023). Joaggi/Robust-kernels-for-robust-loca
         </section>
 
 
-        <section data-auto-animate="running"  data-visibility="uncounted" class="future" style="top: 312px; display: block;" hidden=""
-                                                                                                aria-hidden="true">
-          <h1 data-auto-animate-target="11">Density Matrices</h1>
-          <h2 data-auto-animate-target="11">Represent a probability function efficiently</h2>
-          <div class="text-image">
-            <div>
-              <ul>
-                <li>Categorical distributions: <b style="color:red">Obvious</b>, but innefficient, not
-                  very useful.</li>
-              </ul>
-            </div>
-          </div>
-        </section>
-
-        <section data-auto-animate="running" data-visibility="uncounted"  class="future" style="top: 312px; display: block;" hidden=""
+         <section data-auto-animate="running" data-visibility="uncounted"  class="future" style="top: 312px; display: block;" hidden=""
                                                                                                 aria-hidden="true">
           <h1 data-auto-animate-target="11">Density Matrices</h1>
           <h2 data-auto-animate-target="11">Represent a probability function efficiently</h2>
@@ -1565,34 +1462,7 @@ Gallego-Mejia, J., González, F. A (2023). Joaggi/Robust-kernels-for-robust-loca
           </div>
         </section>
 
-        <section data-auto-animate="running"  data-visibility="uncounted" class="future" style="top: 312px; display: none;" hidden=""
-                                                                                               aria-hidden="true">
-          <h2 data-auto-animate-target="11">Density Matrix Kernel Density Estimation</h2>
-
-          <div class="text-image">
-            <div>
-              <ul>
-                <li>An efficient approximate version of KDE.</li>
-              </ul>
-            </div>
-          </div>
-        </section>
-
-        <section data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: none;" hidden=""
-                                                                                                                           aria-hidden="true">
-          <h2 data-auto-animate-target="11">Density Matrix Kernel Density Estimation</h2>
-
-          <div class="text-image">
-            <div>
-              <ul>
-                <li>An efficient approximate version of KDE.</li>
-                <li>Non-memory based.</li>
-              </ul>
-            </div>
-          </div>
-        </section>
-
-
+ 
         <section data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: none;" hidden=""
                                                                                                                            aria-hidden="true">
           <h2 data-auto-animate-target="11">Density Matrix Kernel Density Estimation</h2>
@@ -1915,60 +1785,6 @@ Gallego-Mejia, J., González, F. A (2023). Joaggi/Robust-kernels-for-robust-loca
           <h1 data-auto-animate-target="11">Streaming Anomaly Detection</h1>
         </section>
 
-	
-				<section data-auto-animate class="future" data-visibility="uncounted" style="top: 99.5px; display: none;" hidden=""
-					aria-hidden="true">
-					<h2 data-auto-animate-target="">First Phase: Data Mapping</h2>
-					<div class="text-image">
-						<div>
-							<ul>
-								<li><b>Idea</b>: feature space approximation. </li>
-
-								</li>
-							</ul>
-						</div>
-					</div>
-				</section>
-
-
-				<section data-auto-animate data-visibility="uncounted" class="future" style="top: 99.5px; display: none;" hidden=""
-					aria-hidden="true">
-					<h2 data-auto-animate-target="">First Phase: Data Mapping</h2>
-					<div class="text-image">
-						<div>
-							<ul>
-								<li><b>Idea</b>: feature space approximation. </li>
-								<li>Given a kernel \( k:\mathbb{R}^d \times \mathbb R^d \rightarrow \mathbb R\)
-									<br> the method builds an embedding \( \phi_{\text{rff}}: \mathbb R^d \rightarrow
-									\mathbb{R}^D\)
-									<br> such that \[ k(x,y) \approx \langle \phi_{\text{rff}}(x), \phi_{\text{rff}}(y)
-									\rangle \]
-
-								</li>
-							</ul>
-						</div>
-					</div>
-				</section>
-
-				<section data-auto-animate data-visibility="uncounted" class="future" style="top: 99.5px; display: none;" hidden=""
-					aria-hidden="true">
-					<h2 data-auto-animate-target="">First Phase: Data Mapping</h2>
-					<div class="text-image">
-						<div>
-							<ul>
-								<li><b>Idea</b>: feature space approximation. </li>
-								<li>Given a kernel \( k:\mathbb{R}^d \times \mathbb R^d \rightarrow \mathbb R\) the method builds
-									an embedding \( \phi_{\text{rff}}: \mathbb R^d \rightarrow \mathbb{R}^D\) such that
-									\[ k(x,y) \approx \langle \phi_{\text{rff}}(x), \phi_{\text{rff}}(y) \rangle \]
-								</li>
-								<li>The embedding \( \phi_{\text{rff}} \) depends on two parameters, \(\textbf{w}\) and \(\it{b}\), that are built by 
-									sampling on random distributions.</li>
-
-							</ul>
-						</div>
-					</div>
-				</section>
-
 
         		<section data-auto-animate data-visibility="uncounted" class="future" style="top: 99.5px; display: none;" hidden=""
 					aria-hidden="true">
@@ -1989,70 +1805,6 @@ Gallego-Mejia, J., González, F. A (2023). Joaggi/Robust-kernels-for-robust-loca
 					</div>
 				</section>
 
-
-        		<section data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: none;" hidden=""
-					aria-hidden="true">
-					<h2 data-auto-animate-target="11">Second Phase: Density Matrix Initialization</h2>
-					<div class="text-image">
-						<div>
-							<ul>
-								<li>The density matrix that stores the probability model is calculated as:</li>
-                	\[\begin{equation}
-					\rho_t = \frac{1}{n}\sum_{i=1}^N q_i \cdot \phi_\text{aff}(\textbf{x}_i)\phi^t_\text{aff}(\textbf{x}_i)
-					\end{equation}
-					\]
-
-					<center>where $\sum_{i=1}^{t} q_i = 1$</center>
-
-							</ul>
-						</div>
-					</div>
-				</section>
-
-
-       			<section data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: none;" hidden=""
-					aria-hidden="true">
-					<h2 data-auto-animate-target="11">Second Phase: Density Matrix Initialization</h2>
-					<div class="text-image">
-						<div>
-							<ul>
-								<li>The density matrix that stores the probability model is calculated as:</li>
-							\[\begin{equation} 
-								\rho_t = \frac{1}{n}\sum_{i=1}^N q_i \cdot \phi_\text{aff}(\textbf{x}_i)\phi^t_\text{aff}(\textbf{x}_i)
-							\end{equation}
-							\]
-
-						<center>where $\sum_{i=1}^{t} q_i = 1$</center><br/>
-
-								<li>An initial portion of the stream $\{\bf{x}_1, \cdots, \bf{x}_n\}$ is used to update the density matrix.</li>
-							</ul>
-						</div>
-					</div>
-				</section>
-
-
-				<section data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: none;" hidden=""
-					aria-hidden="true">
-					<h2 data-auto-animate-target="11">Second Phase: Density Matrix Initialization</h2>
-					<div class="text-image">
-						<div>
-							<ul>
-								<li>The density matrix that stores the probability model is calculated as:</li>
-							\[\begin{equation} 
-								\rho_t = \frac{1}{n}\sum_{i=1}^N q_i \cdot \phi_\text{aff}(\textbf{x}_i)\phi^t_\text{aff}(\textbf{x}_i)
-							\end{equation}
-							\]
-
-						<center>where $\sum_{i=1}^{t} q_i = 1$</center><br/>
-
-								<li>An initial portion of the stream $\{\bf{x}_1, \cdots, \bf{x}_n\}$ is used to update the density matrix.</li>
-								<li>In quantum mechanics, density matrices are a mechanism used to efficiently represent states of quantum systems (vectors in a 
-									Hilbert space). Density matrices combine linear algebra and probability, allowing to perform probability 
-									calculations by using linear algebra operations.</li>
-							</ul>
-						</div>
-					</div>
-				</section>
 
 
 				<section data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: none;" hidden=""
@@ -2081,49 +1833,6 @@ Gallego-Mejia, J., González, F. A (2023). Joaggi/Robust-kernels-for-robust-loca
 
 
 
-        		<section data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: none;" hidden=""
-					aria-hidden="true">
-					<h2 data-auto-animate-target="11">Third Phase: Density Estimation and Anomaly Detection</h2>
-					<div class="text-image">
-						<div>
-							<ul>
-							<li>Given a new data point \(\textbf{x}_{t+1}\), its density is estimated using the following equation:</li>
-							\[\begin{equation}
-							\hat{f}(\textbf{x}_{t+1}) = \frac{1}{M_\sigma} {\phi}_\text{aff}(\textbf{x}_{t+1})^T \rho_t \: {\phi}_\text{aff}(\textbf{x}_{t+1})
-							\end{equation}
-							\]
-
-							<center>where $\rho_t$ is the density matrix defined in the last phase and $M_\sigma$ is a normalization constant.</center>
-
-							</ul>
-						</div>
-					</div>
-				</section>
-
-
-				<section data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: none;" hidden=""
-					aria-hidden="true">
-					<h2 data-auto-animate-target="11">Third Phase: Density Estimation and Anomaly Detection</h2>
-					<div class="text-image">
-						<div>
-							<ul>
-							<li>Given a new data point \(\textbf{x}_{t+1}\), its density is estimated using the following equation:</li>
-							\[\begin{equation}
-							\hat{f}(\textbf{x}_{t+1}) = \frac{1}{M_\sigma} {\phi}_\text{aff}(\textbf{x}_{t+1})^T \rho_t \: {\phi}_\text{aff}(\textbf{x}_{t+1})
-							\end{equation}
-							\]
-
-							<li>The threshold $\tau$ that separates normal and anomalous points is found using two different approaches.
-								<ul><li>Prior knowledge of the proportion of anomalies ($\beta$).</li>
-								<li>Use an optimization metric computed over $\{\hat{f}(\textbf{x}_1), \cdots, \hat{f}(\textbf{x}_n)\}$,
-									for instance using the best threshold with respect to AUC-ROC in initial memory.</li>
-								</ul></li>
-							</ul>
-						</div>
-					</div>
-				</section>
-
-
 				<section data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: none;" hidden=""
 					aria-hidden="true">
 					<h2 data-auto-animate-target="11">Third Phase: Density Estimation and Anomaly Detection</h2>
@@ -2148,39 +1857,6 @@ Gallego-Mejia, J., González, F. A (2023). Joaggi/Robust-kernels-for-robust-loca
 							\text{`normal`} & \textit{if } \: \hat{f}(\textbf{x}_{i}) \geq \tau\\
 							\text{`anomaly`} & \textit{otherwise}
 							\end{matrix}\right.
-											\end{equation}
-							\]
-							</ul>
-						</div>
-					</div>
-				</section>
-
-
-        		<section data-auto-animate="running" data-visibility="uncounted"  class="future" style="top: 312px; display: none;" hidden=""
-					aria-hidden="true">
-					<h2 data-auto-animate-target="11">Fourth Phase: Density Matrix Update</h2>
-					<div class="text-image">
-						<div>
-							<ul>
-								<li>The density matrix can be updated when a new data point arrives. The sample \({\textbf{x}_{t+1}}\) is added to <br>
-								    the density matrix, weighing it with a tradeoff parameter \(\alpha\).</li>
-							</ul>
-						</div>
-					</div>
-				</section>
-
-
-				<section data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: none;" hidden=""
-					aria-hidden="true">
-					<h2 data-auto-animate-target="11">Fourth Phase: Density Matrix Update</h2>
-					<div class="text-image">
-						<div>
-							<ul>
-								<li>The density matrix can be updated when a new data point arrives. The sample \({\textbf{x}_{t+1}}\) is added to <br>
-								    the density matrix, weighing it with a tradeoff parameter \(\alpha\).</li>
-								<li>The updated density matrix will be</li>
-							\[\begin{equation}
-							\rho_{t+1} =  (1-\alpha) \cdot \rho_{t} + \alpha \cdot \phi_\text{aff}({\textbf{x}_{t+1}})\phi^T_\text{aff}({\textbf{x}_{t+1}})
 											\end{equation}
 							\]
 							</ul>
@@ -2227,7 +1903,44 @@ Gallego-Mejia, J., González, F. A (2023). Joaggi/Robust-kernels-for-robust-loca
 
 			</section>
 
-			
+	
+        <section
+data-visibility="uncounted" 
+      data-background-image="resources/motivation_background_incremental.svg" data-background-size="200px" data-background-position="98% 2%" 
+          data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+                                                                                                 aria-hidden="true">
+				<h2 data-auto-animate-target="11">Other Contributions</h2>
+          <div class="text-image">
+            <img src="resources/paper-robust-kernels.svg"> </img>
+          </div>
+        </section>
+
+        <section
+data-visibility="uncounted" 
+      data-background-image="resources/motivation_background_incremental.svg" data-background-size="200px" data-background-position="98% 2%" 
+          data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+                                                                                                 aria-hidden="true">
+				<h2 data-auto-animate-target="11">Other Contributions</h2>
+          <div class="text-image">
+            <img src="resources/paper-dmkde.svg"> </img>
+          </div>
+        </section>
+
+
+        <section
+data-visibility="uncounted" 
+      data-background-image="resources/motivation_background_incremental.svg" data-background-size="200px" data-background-position="98% 2%" 
+          data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+                                                                                                 aria-hidden="true">
+				<h2 data-auto-animate-target="11">Other Contributions</h2>
+          <div class="text-image">
+            <img src="resources/quantum-mixtures-model-paper.png"> </img>
+          </div>
+        </section>
+
+
+
+		
 		</div>
 
 	</div>
